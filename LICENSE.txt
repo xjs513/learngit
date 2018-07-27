@@ -1,0 +1,64 @@
+邮箱：songzhanliang@eventmosh.com   ysyhl9T
+印象笔记：xjs513@163.com  mimamima123
+github：www.github.com  xjs513@163.com  mimamima123
+https://github.com/eventmosh/eventeDataCenter  
+新建的数据产品的私有仓库，你们把自己 github 的用户名和开发环境(内地或内网)的 ssh key 发我我加github
+
+八斗三期视频地址：
+http://three.badouxueyuan.cn
+songzhanliang  mimamima123
+
+event虚拟机  root ysyhl9T
+
+新浪微博 13401104453 ysyhl9T
+
+--------------------------------------------------------------------------------------------------
+目前测试服务器2台
+1、	IP：192.168.1.200
+密码:	moshmosh123
+2、	IP：192.168.1.201
+密码:	Mosh123456
+
+测试CDH5:	http://192.168.1.201:7180/cmf/login
+		admin	admin
+
+生产CDH5:	http://39.107.79.26:7180/cmf/login
+		admin	ysyhl9T
+--------------------------------------------------------------------------------------------------
+prod 机器:
+ssh root@39.107.109.202 -p 9922
+root@$^()ROOT2018
+    mosh mosh@$^()MOSH2018
+
+可以从mosh-data-front 无密码登陆到其他服务器
+ssh mosh-data-1
+ssh mosh-data-2
+ssh mosh-data-3
+
+我在跳板机上做了个端口转发
+39.107.109.202 12341 -> mosh-data-1 22
+39.107.109.202 12342 -> mosh-data-2 22
+39.107.109.202 12343 -> mosh-data-3 22
+
+39.107.79.26 mosh-data-1的公网IP
+
+es-header地址: http://39.107.79.26:9100/
+es地址: http://39.107.79.26:9100/
+
+
+3台虚拟机集群:
+本机IP地址分配如下:
+192.168.3.135
+255.255.255.0
+192.168.3.1
+192.168.3.1
+
+219.141.136.10
+219.141.140.10
+
+11  12  13 三台虚拟机IP root用户密码:ysyhl9T  es es123!@#
+
+123.56.11.28  wiki.evente.cn  pms.evente.cn
+
+worktile地址：  kasa/888418  密码不确定
+https://eventmosh.worktile.com
